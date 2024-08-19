@@ -4,7 +4,7 @@
       <h1 class="font-semibold text-xl lg:text-2xl mb-2">Sign in</h1>
       <p class="text-neutral-400 dark:text-neutral-500 mb-6">Sign in with your GitHub account to access your repositories. Data is saved in your browser only.</p>
       <div class="flex flex-col gap-y-4">
-        <a :href="process.env.NODE_ENV === 'production' ? '/page-cms/auth/login' : '/auth/login'" class=" btn-primary justify-center w-full !gap-x-3">
+        <a :href="process.env.NODE_ENV === 'production' ? '/auth/login' : '/auth/login'" class=" btn-primary justify-center w-full !gap-x-3">
           <Icon name="Github" class="h-6 w-6 stroke-2 shrink-0"/>
           <div>Sign in with GitHub</div>
         </a>
